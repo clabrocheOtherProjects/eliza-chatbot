@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="triggerHelp">Afficher l'aide</div>
+        <div class="help">
+            <h1>Help:</h1>
+            <p>Tu peux dire des choses au robot: </p>
+            <ul>
+                <li>bonjour,salut</li>
+                <li>comment vas tu, comment ca va,comment vas-tu ?, comment ca va ?</li>
+                <li>Quel age as tu ?, Quel age tu as ?</li>
+            </ul>
+            <p>Tu peux mettre des mots clés:</p>
+            <ul>
+                <li>Je suis HEUREUX</li>
+            </ul>
+            <p>
+                Tu peux mixer les demandes:
+            </p>
+            <ul>
+                <li>Bonjour, quel age as tu ?</li>
+                <li>Salut, comment vas tu ?</li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="message">
+                <div class="user">User:  <span class="text"></span></div>
+                <div class="bot">Bot:  <span class="text"></span></div>
+            </div>
+        </div>
+        <form action='#'>
+            <input placeholder="Insert a text and type enter" type="text" class="userInput" />
+            <button class="submit">Submit</button>
+        </form>
+    </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./data.js"></script>
+    <script src="./index.js"></script>
+</html>

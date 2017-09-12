@@ -1,0 +1,52 @@
+.box{
+    /* background-color: rgba(0,0,0,0.5); */
+    padding: 30px;
+    font-size: 2em;
+    line-height: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.triggerHelp{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 14px 14px rgba(0, 0, 0, 0.3);
+
+}
+.help{
+    color: black;
+    padding: 30px;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+body{
+    margin: 0;
+    background-color:#444;
+    color: white;
+}
+form{
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    /* padding: 30px; */
+}
+form input{
+    border-radius: 90px;
+    text-align: center;
+    font-size: 2em;
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: inline-block;
+}
+button{
+    display: none;
+}
